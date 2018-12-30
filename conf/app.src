@@ -1,0 +1,6 @@
+SOURCE_URL=https://downloads.partkeepr.org/partkeepr-1.4.0.tbz2
+SOURCE_SUM=4f83cb1da3e725de2b53acbaf6ba6edef8ca3b4fdce0d7a0ad2b5a7c3c5ea72e
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=tbz2
+SOURCE_IN_SUBDIR=true
+SOURCE_FILENAME=partkeepr-1.4.0.tbz2
