@@ -1,5 +1,5 @@
 SOURCE_URL=https://downloads.partkeepr.org/partkeepr-1.4.0.zip
-SOURCE_SUM=4f83cb1da3e725de2b53acbaf6ba6edef8ca3b4fdce0d7a0ad2b5a7c3c5ea72e
+SOURCE_SUM=3edc7a54f2131a48292ecb912dbbe0494651edccecc9c5eb7773b1849e0071c5
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=zip
 SOURCE_IN_SUBDIR=true
