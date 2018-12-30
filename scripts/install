@@ -251,6 +251,16 @@ fi
 # Set permissions to app files
 #chown -R root: $final_path
 chown -R root:root $final_path
+chown -R $app:root $final_path/data
+chown -R $app:root $final_path/app
+chown -R $app:root $final_path/app/logs
+chown -R $app:root $final_path/app/cache
+chown -R $app:root $final_path/web
+chmod u+w $final_path/app
+chmod u+w $final_path/app/logs
+chmod u+w $final_path/app/cache
+chmod u+w $final_path/data
+chmod u+w $final_path/web
 
 #=================================================
 # SETUP LOGROTATE

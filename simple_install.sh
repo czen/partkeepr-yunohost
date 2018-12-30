@@ -6,6 +6,7 @@ ynh_app_setting_set $app domain $domain
 sudo apt-get update
 sudo apt-get -y upgrade
 # sudo apt-get -y install ntp
+sudo apt-get -y install php-curl php-ldap php-bcmath php-gd php-dom
 
 #mysql> USE mysql;
 #mysql> CREATE USER 'PartKeepr'@'localhost' IDENTIFIED BY '11111'; #'insert_password_here';
@@ -34,3 +35,16 @@ sudo chown -R root:root /var/www/partkeepr
 # edit:
 sudo nano /etc/php/7.0/fpm/php.ini
 # max_execution_time = 120 # not 30
+
+
+# permissions:
+chown -R partkeepr:root /var/www/partkeepr/data
+chown -R partkeepr:root /var/www/partkeepr/app
+chown -R partkeepr:root /var/www/partkeepr/app/logs
+chown -R partkeepr:root /var/www/partkeepr/app/cache
+chown -R partkeepr:root /var/www/partkeepr/web
+chmod u+w /var/www/partkeepr/app
+chmod u+w /var/www/partkeepr/app/logs
+chmod u+w /var/www/partkeepr/app/cache
+chmod u+w /var/www/partkeepr/data
+chmod u+w /var/www/partkeepr/web
