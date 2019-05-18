@@ -35,16 +35,6 @@
                 "example": "example.com"
             },
             {
-                "name": "path",
-                "type": "path",
-                "ask": {
-                    "en": "Choose a path for partkeepr",
-                    "fr": "Choisissez un chemin pour partkeepr"
-                },
-                "example": "/partkeepr",
-                "default": "/partkeepr"
-            },
-            {
                 "name": "admin",
                 "type": "user",
                 "ask": {
